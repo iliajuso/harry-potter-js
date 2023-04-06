@@ -4,7 +4,7 @@ body
 .container
     max-width: 768px
     margin: 0 auto  
-    padding: 0px 25px
+    padding: 25px 25px
 h1
     font-size: 64px
     font-weight: 700
@@ -49,12 +49,14 @@ hr
     height: 1px
     margin-top: 40px
     width: 100%
-main
+.container_main
+    position: relative
     margin-top: 40px
     display: flex
     justify-content: center
     gap: 20px
     flex-wrap: wrap
+    padding-bottom: 25px
 .main_wrap
         position: relative
         height: 409px
@@ -65,6 +67,7 @@ main
             width: 334px
             height: 192px
             object-fit: cover
+            object-position: top
         &__info
             padding: 24px
             h2
@@ -116,7 +119,24 @@ main
 
 .checkinput:checked + .checkbox 
     background-image: url('/image/Group 1.png')
-  
+.header_h
+    margin-top: 48px 
+.header_back
+    font-size: 16px
+    font-weight: 400
+    line-height: 28px
+    color: #3F444A
+.container_main_link
+    // position: fixed
+    bottom: 23px
+    z-index: 10
+    a
+        // position: absolute
+        right: 196px
+        box-shadow: 0px 8px 35px 0px #00000029
+
+
+    
 
 
 
