@@ -19,7 +19,7 @@ form
     display: flex
     justify-content: space-between
     align-items: center
-     flex-direction: column
+    // flex-direction: column
 label
     margin-bottom: 3px
     font-size: 16px
@@ -41,8 +41,6 @@ select
     border-radius: 4px
     border: 1px solid #CED4DAed
     color: #ABB5BE
-
-
     
 hr
     background: #DEE2E6
@@ -132,3 +130,30 @@ hr
     //     position: fixed
     //     top: 10px
     //     right: 10px
+@media (max-width: 600px)
+    h1
+        font-size: 52px
+        line-height: 63px
+    p
+        font-size: 16px
+        line-height: 28px
+    form
+        flex-direction: column
+    .container_main_link
+        right:0px   
+@media (max-width: 480px)
+    select
+        width:320px
+        text-align: left
+    input
+        width: 320px 
+    h1
+        text-align: center
+    p
+        text-align: center
+    .main_wrap
+        width: 320px
+
+
+
+
